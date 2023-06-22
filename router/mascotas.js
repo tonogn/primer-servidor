@@ -38,6 +38,15 @@ router.post("/", async(req, res) => {
     }
 })
 
+router.get("/:id", (req, res) => {
+    const id = req.params.id
+    try {
+
+    } catch (error) {
+        console.log(error);
+    }
+})
+
 
 
 module.exports = router;
